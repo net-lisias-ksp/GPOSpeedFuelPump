@@ -1,9 +1,12 @@
-# GPOSpeedFuelPump :: Change Log
+# Goo Pumps & Oils' Speed Pump :: Change Log
 
-* 2022-041: 1.9.0.2 (LisiasT) for KSP >= 1.3.1
-	+ Naming the thing to GPOSpeedFuelPump to preserve current Distribution Channels
-	+ Initial works for adopting it on Forum.
+* 2022-0415: 1.9.0.3 (LisiasT) for KSP >= 1.3.1
+	+ Officially naming the thing to `GPOSpeedPump` / `Goo Pumps & Oil's Speed Pump`
+	+ Added 3rd Party Support by zer0Kerbal.
 	+ Moving from `KSPe` to `KSPe.Light`.
+	+ Proceeding into adopting it on Forum.
+* 2022-0411: 1.9.0.2 (LisiasT) for KSP >= 1.3.1
+	+ ***DITCHED*** due a bad call on naming the thingy.
 * 2022-0403: 1.9.0.1 (LisiasT) for KSP >= 1.3.1
 	+ Adds KSPe facilities:
 		- Logs
