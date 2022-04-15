@@ -1,6 +1,6 @@
 # Goo Pumps & Oils' Speed Pump
 
-An Add'On for [Kerbal Space Program](https://www.kerbalspaceprogram.com).
+Allows you to automatically transfer or balance fuel.
 
 ## Introduction
 
