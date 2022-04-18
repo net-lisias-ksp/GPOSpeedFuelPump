@@ -1,7 +1,11 @@
 # Goo Pumps & Oils' Speed Pump :: Change Log
 
+* 2022-0418: 1.9.0.4 (LisiasT) for KSP >= 1.3.1
+	+ Some naming problems that passed trough last release was fixed.
+	+ Added a "Migration" tool to preserve crafts and games migrating from the previous `GPOSpeedFuelPump` releases.
+	+ Implements the KSPe's new Compatibility Checks. 
 * 2022-0415: 1.9.0.3 (LisiasT) for KSP >= 1.3.1
-	+ Officially naming the thing to `GPOSpeedPump` / `Goo Pumps & Oil's Speed Pump`
+	+ Officially naming the thing to `GPOSpeedPump` / `Goo Pumps & Oils' Speed Pump`
 	+ Added 3rd Party Support by zer0Kerbal.
 	+ Moving from `KSPe` to `KSPe.Light`.
 	+ Proceeding into adopting it on Forum.
