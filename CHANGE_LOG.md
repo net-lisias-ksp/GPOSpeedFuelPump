@@ -1,5 +1,9 @@
 # Goo Pumps & Oils' Speed Pump :: Change Log
 
+* 2022-0421: 1.9.0.5 (LisiasT) for KSP >= 1.3.1
+	+ A pretty lame mistake was detected and fixed.
+	+ Closes issues:
+		+ [#2](https://github.com/net-lisias-ksp/GPOSpeedPump/issues/2) NRE on Balance  	
 * 2022-0418: 1.9.0.4 (LisiasT) for KSP >= 1.3.1
 	+ Some naming problems that passed trough last release was fixed.
 	+ Added a "Migration" tool to preserve crafts and games migrating from the previous `GPOSpeedFuelPump` releases.
