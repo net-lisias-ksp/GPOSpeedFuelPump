@@ -16,7 +16,7 @@ Ever undock from your space station, only to realize you forgot to top off your 
 
 ## Downloads
 
-* [CurseForge](https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump)
+* [CurseForge](https://www.curseforge.com/kerbal/ksp-mods/gpospeedfuelpump-continued)
 * [SpaceDock](https://spacedock.info/mod/546)
 * [GitHub](https://github.com/net-lisias-ksp/GPOSpeedPump/releases)
 
@@ -29,3 +29,4 @@ Ever undock from your space station, only to realize you forgot to top off your 
 ## *Moar Info!!*
 
 You can find a lot of gory details on the [Project's Github](https://github.com/net-lisias-ksp/GPOSpeedPump)!
+
