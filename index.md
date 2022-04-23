@@ -1,3 +1,11 @@
+---
+permalink: /Index.html
+title: Home
+description: Home, home on the range, where the kuffolo roam...
+# layout: bare
+tags: home,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
+---
+
 # Goo Pumps & Oils' Speed Pump
 
 Allows you to automatically transfer or balance fuel.
@@ -8,8 +16,8 @@ Ever undock from your space station, only to realize you forgot to top off your 
 
 ## Downloads
 
-* [CurseForge](https://www.curseforge.com/kerbal/ksp-mods/gpospeedfuelpump-continued)
-* [SpaceDock](https://spacedock.info/mod/546/GPOSpeedFuelPump)
+* [CurseForge](https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump)
+* [SpaceDock](https://spacedock.info/mod/546)
 * [GitHub](https://github.com/net-lisias-ksp/GPOSpeedPump/releases)
 
 ## Support
