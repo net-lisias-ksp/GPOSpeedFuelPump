@@ -1,5 +1,4 @@
 ---
-permalink: /Index.html
 title: Home
 description: Home, home on the range, where the kuffolo roam...
 # layout: bare
