@@ -15,23 +15,24 @@ Ever undock from your space station, only to realize you forgot to top off your 
 
 ## Documents
 
-* [Marketing Slicks][Marketing.md]
-
-* [Localizations](Localizations.md)
-* [ManualInstallation](ManualInstallation.md)
-* [changelog](changelog.md)
-
-* [Attributions](Attributions.md)
-* [Legal Mambo Jumbo](LegalMumboJumbo.md)
-* [Notices](Notices.md)
-
-* [404](404.md)
+* Marketing
+  * [Slicks][Marketing.md]
+* Informative
+  * [Localizations](Localizations.md)
+  * [ManualInstallation](ManualInstallation.md)
+  * [changelog](changelog.md)
+* Legal Mambo Jambo
+  * [Attributions](Attributions.md)
+  * [Legal Mambo Jumbo](LegalMumboJumbo.md)
+  * [Notices](Notices.md)
+* Just for fun
+  * [404](404.md)
 
 ## Downloads
 
 * [CurseForge](https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump)
 * [SpaceDock](https://spacedock.info/mod/546)
-* [GitHub](https://github.com/net-lisias-ksp/GPOSpeedPump/releases)
+* [GitHub](https://github.com/net-lisias-ksp/GPOSpeedPump/releases/latest)
 
 ## Support
 
