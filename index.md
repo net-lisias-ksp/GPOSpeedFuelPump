@@ -16,7 +16,7 @@ Ever undock from your space station, only to realize you forgot to top off your 
 ## Documents
 
 * Marketing
-  * [Slicks][Marketing.md]
+  * [Slicks](Marketing.md)
 * Informative
   * [Localizations](Localizations.md)
   * [ManualInstallation](ManualInstallation.md)
