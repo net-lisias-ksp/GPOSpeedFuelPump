@@ -2,7 +2,7 @@
 permalink: /index.html
 title: Home
 description: Home, home on the range, where the kuffolo roam...
-tags: home,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
+tags: home,page,kerbal,ksp,LisiasT,zer0Kerbal,Lisias,zedK
 ---
 
 # Goo Pumps & Oils' Speed Pump
@@ -19,8 +19,9 @@ Ever undock from your space station, only to realize you forgot to top off your 
   * [Slicks](Marketing.md)
 * Informative
   * [Localizations](Localizations.md)
-  * [ManualInstallation](ManualInstallation.md)
-  * [changelog](changelog.md)
+  * [Manual Installation](ManualInstallation.md)
+  * [Version Changes](Changes.md)
+  * [Changelog](Changelog.md)
 * Legal Mambo Jambo
   * [Attributions](Attributions.md)
   * [Legal Mambo Jumbo](LegalMumboJumbo.md)
