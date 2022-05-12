@@ -3,18 +3,20 @@ permalink: /Localizations.html
 title: Localizations
 description: camera goes *click-click*
 # layout: bare
-tags: translations,localizations,languages,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
+tags: translations,localizations,languages,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
-<!-- Localizations.md v1.1.3.1
+<!-- Localizations.md v1.1.4.0
 Goo Pumps & Oils' Speed Pump (GPO)
 created: 01 Feb 2022
-updated: 30 Mar 2022 -->
+updated: 08 Apr 2022 -->
 
 <!-- this file used with express permission from zer0Kerbal -->
 
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
-<i class="fa fa-gear fa-spin fa-3x" style="color: firebrick"></i>
+<div class="fa-3x">
+  <i class="fa fa-language fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25; color: #BADA55"></i>
+</div>
 
 # Goo Pumps & Oils' Speed Pump (GPO)
 
