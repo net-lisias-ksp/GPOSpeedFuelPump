@@ -38,8 +38,8 @@ based upon work by LisiasT -->
 
 Other trademarks and registered trademarks are the property of the respective trademark holders.
 
-* © 2022 LisiasT
+* © 2022 LisiasT, zer0Kerbal™
 * © 2016-2019 hab136
 * © 2015 Geordiepigeonowner
 * © 2014 Gaius Goodspeed
-* © 2011-2022 zer0Kerbal™
+
