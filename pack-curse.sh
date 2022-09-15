@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
+# see http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
 source ./CONFIG.inc
 
 clean() {
-	rm $FILE
+	rm -fR $FILE
 	if [ ! -d Archive ] ; then
-		rm -f Archive
 		mkdir Archive
 	fi
 }
@@ -17,5 +19,5 @@ clean
 cd GameData
 
 zip -r $FILE ./$PACKAGE/* -x ".*"
-zip -d $FILE __MACOSX "**/.DS_Store"
+zip -d $FILE "__MACOSX/*" "**/.DS_Store"
 cd $pwd
