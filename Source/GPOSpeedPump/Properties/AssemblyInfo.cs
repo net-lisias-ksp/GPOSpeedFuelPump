@@ -32,5 +32,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion(GPOSpeedPump.Version.Number)]
 [assembly: AssemblyFileVersion(GPOSpeedPump.Version.Number)]
 [assembly: KSPAssembly("GPOSpeedPump", GPOSpeedPump.Version.major, GPOSpeedPump.Version.minor)]
+
+#if KSPE
 [assembly: KSPAssemblyDependency("KSPe", 2, 4)]
 [assembly: KSPAssemblyDependency("KSPe.UI", 2, 4)]
+#else
+[assembly: KSPAssemblyDependency("KSPe.Light.GPOSP", 2, 4)]
+#endif
