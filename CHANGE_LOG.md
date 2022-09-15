@@ -1,5 +1,9 @@
 # Goo Pumps & Oils' Speed Pump :: Change Log
 
+* 2022-0915: 1.9.0.6 (LisiasT) for KSP >= 1.3.1
+	+ Fix a lame mistake on the dependency checking
+	+ Implements Localization for the EN-US language
+		- More to come! 
 * 2022-0421: 1.9.0.5 (LisiasT) for KSP >= 1.3.1
 	+ A pretty lame mistake was detected and fixed.
 	+ Closes issues:
