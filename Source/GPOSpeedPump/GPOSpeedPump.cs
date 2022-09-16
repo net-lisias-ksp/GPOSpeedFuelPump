@@ -187,8 +187,8 @@ namespace GPOSpeedPump
 					PartResource pr = part.Resources[i];
 					if (!this.isFlowableResource(pr)) continue;
 
-					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, Localizer.Format(/* Pump<space> */"#GPOSP-pump") + pr.info.displayName) ? 1 : 0));
-					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, Localizer.Format(/* Balance<Space> */"#GPOSP-balance") + pr.info.displayName) ? 2 : 0));
+					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, Localizer.Format(/* Pump {0} */"#GPOSP-pump", pr.info.displayName)) ? 1 : 0));
+					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, Localizer.Format(/* Balance {0} */"#GPOSP-balance", pr.info.displayName)) ? 2 : 0));
 				}
 
 				if (GUILayout.Button (Localizer.Format(/* Close */"#autoLOC_149410"), style, GUILayout.ExpandWidth (true))) {
