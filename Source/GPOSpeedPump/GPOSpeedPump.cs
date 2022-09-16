@@ -157,23 +157,21 @@ namespace GPOSpeedPump
 			}
 		}
 
-		private bool isFlowableResource (string resourceName)
+		private bool isFlowableResource(string resourceName)
+			=> this.isFlowableResource(PartResourceLibrary.Instance.GetDefinition (resourceName));
+
+		private bool isFlowableResource(PartResource resource)
+			=> resource.flowState && this.isFlowableResource(resource.info);
+
+		private bool isFlowableResource(PartResourceDefinition resource)
 		{
-			PartResourceDefinition resource = PartResourceLibrary.Instance.GetDefinition (resourceName);
-			if (resource == null) {
-				return false;
-			}
-			if (resource.resourceFlowMode == ResourceFlowMode.NO_FLOW) {
-				return false;
-			}
-			if (resource.resourceFlowMode == ResourceFlowMode.NULL) {
-				return false;
-			}
-            if (resource.resourceTransferMode == ResourceTransferMode.NONE)
-            {
-                return false;
-            }
-			return true;
+			if (null == resource)											return false;
+			Log.dbg("Resource {0} is {1} {2}", resource.name, resource.resourceFlowMode, resource.isVisible);
+			if (ResourceFlowMode.NO_FLOW == resource.resourceFlowMode)		return false;
+			if (ResourceFlowMode.NULL == resource.resourceFlowMode)			return false;
+			if (ResourceTransferMode.NONE == resource.resourceTransferMode)	return false;
+
+			return resource.isVisible;
 		}
 
 		private void DrawConfigWindow (int id)
@@ -187,6 +185,7 @@ namespace GPOSpeedPump
 				for (int i = part.Resources.Count - 1; i >= 0; --i)
 				{
 					PartResource pr = part.Resources[i];
+					if (!this.isFlowableResource(pr)) continue;
 
 					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, Localizer.Format(/* Pump<space> */"#GPOSP-pump") + pr.resourceName) ? 1 : 0));
 					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, Localizer.Format(/* Balance<Space> */"#GPOSP-balance") + pr.resourceName) ? 2 : 0));
@@ -236,8 +235,9 @@ namespace GPOSpeedPump
 			{
 				PartResource pumpRes = part.Resources[i];
 
-				if (pumpRes.flowState) // don't operate if resource is locked
-				{ 
+				if (!this.isFlowableResource(pumpRes)) continue;
+
+				{	// don't operate if resource is locked
 					if (GetResourceFlags (pumpRes.resourceName, 1) == 1) for (int s = vessel.Parts.Count - 1; s >= 0; --s)
 					{
 						Part shipPart = vessel.Parts[s];
@@ -275,7 +275,9 @@ namespace GPOSpeedPump
 			{
 				PartResource pumpRes = part.Resources[i];
 
-				if (pumpRes.flowState) { // don't operate if resource is locked
+				if (!this.isFlowableResource(pumpRes)) continue;
+
+				{	// don't operate if resource is locked
 					if (GetResourceFlags (pumpRes.resourceName, 2) == 2) {
 						double resAmt = 0f;
 						double resMax = 0f;
