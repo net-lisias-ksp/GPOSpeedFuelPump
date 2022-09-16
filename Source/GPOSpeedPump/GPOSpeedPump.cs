@@ -216,7 +216,7 @@ namespace GPOSpeedPump
 			}
 		}
 
-		[KSPEvent (guiActive = true, guiActiveEditor = true, guiName = "Pump Options")]
+		[KSPEvent (guiActive = true, guiActiveEditor = true, guiName = /*Pump Options*/"#GPOSP-ConfigurePump")]
 		public void ConfigurePump ()
 		{
 			if (!_winShow) {
