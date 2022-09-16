@@ -39,65 +39,55 @@ namespace GPOSpeedPump
 
 		private Dictionary<string, int> _resourceFlags;
 
-		[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "#GPOSP-pumpLevel"
+		[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = /* Pump Level */"#GPOSP-pumpLevel" 
 					/*, groupDisplayName = "#GPOSP-DisplayNameV" + Version.Text, groupStartCollapsed = true*/), 
-				   UI_FloatRange (minValue = minPumpLevel, maxValue = maxPumpLevel, stepIncrement = 1f)]
+					UI_FloatRange (minValue = minPumpLevel, maxValue = maxPumpLevel, stepIncrement = 1f)]
 		public float _pumpLevel;
 
-		[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "#GPOSP-autoPump"), UI_Toggle (disabledText = "#autoLOC_6001073", enabledText = "#autoLOC_6001074")]
-		//[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Pump is "), UI_Toggle (disabledText = "Off", enabledText = "On")]
+		[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = /* Pump is<space> */"#GPOSP-autoPump"), UI_Toggle (disabledText = /* Off */"#autoLOC_6001073", enabledText = /* On */"#autoLOC_6001074")]
 		public bool _autoPump;
 
-		[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "#GPOSP-autoBalance"), UI_Toggle (disabledText = "#autoLOC_439840", enabledText = "#autoLOC_439839")]
-		//[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Balance"), UI_Toggle (disabledText = "Disabled", enabledText = "Enabled")]
+		[KSPField (isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = /* Balance */"#GPOSP-autoBalance"), UI_Toggle (disabledText = /* Disabled */"#autoLOC_439840", enabledText = /* Enabled */"#autoLOC_439839")]
 		public bool _autoBalance;
 
-        //[KSPAction("Pump ON")]
-		[KSPAction("#GPOSP-PumpOn")]
+		[KSPAction(/* Pump ON*/"#GPOSP-PumpOn")]
         public void ActionPumpOn(KSPActionParam param)
         {
             _autoPump = true;
         }
-		[KSPAction("#GPOSP-PumpOff")]
-        //[KSPAction("Pump OFF")]
+		[KSPAction(/* Pump OFF */"#GPOSP-PumpOff")]
         public void ActionPumpOff(KSPActionParam param)
         {
             _autoPump = false;
         }
-		[KSPAction("#GPOSP-PumpToggle")]
-        //[KSPAction("Toggle pump")]
+		[KSPAction(/* Toggle pump */"#GPOSP-PumpToggle")]
         public void ActionPumpToggle(KSPActionParam param)
         {
             _autoPump = !_autoPump;
         }
 
-        [KSPAction("#GPOSP-BalanceOn")]
-		//[KSPAction("Balancing ON")]
+        [KSPAction(/* Balancing ON */"#GPOSP-BalanceOn")]
         public void ActionBalanceOn(KSPActionParam param)
         {
             _autoBalance = true;
         }
-		[KSPAction("#GPOSP-BalanceOff")]
-        ////[KSPAction("Balancing OFF")]
+		[KSPAction(/* Balancing OFF */"#GPOSP-BalanceOff")]
         public void ActionBalanceOff(KSPActionParam param)
         {
             _autoBalance = false;
         }
-		[KSPAction("#GPOSP-BalanceToggle")]
-        //[KSPAction("Toggle balancing")]
+		[KSPAction(/* Toggle balancing */"#GPOSP-BalanceToggle")]
         public void ActionBalanceToggle(KSPActionParam param)
         {
             _autoBalance = !_autoBalance;
         }
 
-		[KSPAction("#GPOSP-PumpLevelInc")]
-        //[KSPAction("Increase pump level")]
+		[KSPAction(/* Increase pump level */"#GPOSP-PumpLevelInc")]
         public void ActionIncreasePumpLevel(KSPActionParam param)
         {
             _pumpLevel = Math.Min(maxPumpLevel, _pumpLevel + 1f);
         }
-		[KSPAction("#GPOSP-PumpLevelDec")]
-        //[KSPAction("Decrease pump level")]
+		[KSPAction(/* Decrease pump level */"#GPOSP-PumpLevelDec")]
         public void ActionDecreasePumpLevel(KSPActionParam param)
         {
             _pumpLevel = Math.Max(minPumpLevel, _pumpLevel - 1f);
@@ -198,14 +188,11 @@ namespace GPOSpeedPump
 				{
 					PartResource pr = part.Resources[i];
 
-					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, Localizer.Format("#GPOSP-pump") + pr.resourceName) ? 1 : 0));
-					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, Localizer.Format("#GPOSP-balance") + pr.resourceName) ? 2 : 0));
-					//SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, "Pump " + pr.resourceName) ? 1 : 0));
-					//SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, "Balance " + pr.resourceName) ? 2 : 0));
+					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~1) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 1) == 1, Localizer.Format(/* Pump<space> */"#GPOSP-pump") + pr.resourceName) ? 1 : 0));
+					SetResourceFlags (pr.resourceName, GetResourceFlags (pr.resourceName, ~2) | (GUILayout.Toggle (GetResourceFlags (pr.resourceName, 2) == 2, Localizer.Format(/* Balance<Space> */"#GPOSP-balance") + pr.resourceName) ? 2 : 0));
 				}
 
-				if (GUILayout.Button (Localizer.Format("#autoLOC_149410"), style, GUILayout.ExpandWidth (true))) {
-				//if (GUILayout.Button ("Close", style, GUILayout.ExpandWidth (true))) {
+				if (GUILayout.Button (Localizer.Format(/* Close */"#autoLOC_149410"), style, GUILayout.ExpandWidth (true))) {
 					_winShow = false;
 				}
 			}
@@ -225,9 +212,7 @@ namespace GPOSpeedPump
 		{
 			if (_winShow) {
 				GUI.skin = null;
-				_winPos = clampToScreen (GUILayout.Window (_winId, _winPos, DrawConfigWindow, Localizer.Format("#GPOSP-DisplayNameV") + Version.Text)); // if this doesn't work correctly, use one directly below
-				//_winPos = clampToScreen (GUILayout.Window (_winId, _winPos, DrawConfigWindow, Localizer.Format("#GPOSP-DisplayName")));
-				//_winPos = clampToScreen (GUILayout.Window (_winId, _winPos, DrawConfigWindow, "GPOSpeed Pump"));
+				_winPos = clampToScreen (GUILayout.Window (_winId, _winPos, DrawConfigWindow, Localizer.Format(/* GPOSpeed Pump v */"#GPOSP-DisplayNameV") + Version.Text)); // if this doesn't work correctly, use one directly below
 			}
 		}
 
