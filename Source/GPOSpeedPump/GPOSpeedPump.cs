@@ -255,9 +255,7 @@ namespace GPOSpeedPump
 						if (shipPartLevel < _pumpLevel) for (int pr = shipPart.Resources.Count - 1; pr >= 0; --pr)
 						{
 							PartResource shipPartRes = shipPart.Resources[pr];
-							if (shipPartRes.resourceName == pumpRes.resourceName
-								&& shipPartRes.flowState // don't operate if resource is locked
-								)
+							if (shipPartRes.resourceName == pumpRes.resourceName)
 							{
 								double give = Math.Min (Math.Min (shipPartRes.maxAmount - shipPartRes.amount, pumpRes.amount), Math.Min (pumpRes.maxAmount, shipPartRes.maxAmount) / 10.0 * secs);
 								if (give > 0.0) // Sanity check.  Apparently some other mods happily set amount or maxAmount to... interesting values...
@@ -297,10 +295,7 @@ namespace GPOSpeedPump
 									for (int k = shipPart.Resources.Count - 1; k >= 0; --k)
 									{
 										PartResource shipPartRes = shipPart.Resources[k];
-										if (
-											shipPartRes.resourceName == pumpRes.resourceName
-											&& shipPartRes.flowState // don't operate if resource is locked
-											)
+										if (shipPartRes.resourceName == pumpRes.resourceName)
 										{
 											resAmt += shipPartRes.amount;
 											resMax += shipPartRes.maxAmount;
@@ -321,9 +316,7 @@ namespace GPOSpeedPump
 										for (int i1 = shipPart.Resources.Count - 1; i1 >= 0; --i1)
 										{
 											PartResource shipPartRes = shipPart.Resources[i1];
-											if (shipPartRes.resourceName == pumpRes.resourceName
-												&& shipPartRes.flowState // don't operate if resource is locked
-												)
+											if (shipPartRes.resourceName == pumpRes.resourceName)
 												shipPartRes.amount = shipPartRes.maxAmount * resAmt / resMax;
 										}
 								}
