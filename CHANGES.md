@@ -1,4 +1,4 @@
-# Goo Pumps & Oils' Speed Pump :: Change Log
+# Goo Pumps & Oils' Speed Pump :: Changes
 
 * 2022-0917: 1.9.0.9 (LisiasT) for KSP >= 1.3.1
 	+ Adds `pt-br` Localization
