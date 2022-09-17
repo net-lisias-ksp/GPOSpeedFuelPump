@@ -161,7 +161,7 @@ namespace GPOSpeedPump
 			=> this.isFlowableResource(PartResourceLibrary.Instance.GetDefinition (resourceName));
 
 		private bool isFlowableResource(PartResource resource)
-			=> resource.flowState && this.isFlowableResource(resource.info);
+			=> this.isFlowableResource(resource.info);
 
 		private bool isFlowableResource(PartResourceDefinition resource)
 		{
@@ -236,8 +236,9 @@ namespace GPOSpeedPump
 				PartResource pumpRes = part.Resources[i];
 
 				if (!this.isFlowableResource(pumpRes)) continue;
+				if (pumpRes.flowState) continue;  // don't operate if resource is locked
 
-				{	// don't operate if resource is locked
+				{
 					if (GetResourceFlags (pumpRes.resourceName, 1) == 1) for (int s = vessel.Parts.Count - 1; s >= 0; --s)
 					{
 						Part shipPart = vessel.Parts[s];
@@ -276,8 +277,9 @@ namespace GPOSpeedPump
 				PartResource pumpRes = part.Resources[i];
 
 				if (!this.isFlowableResource(pumpRes)) continue;
+				if (pumpRes.flowState) continue;  // don't operate if resource is locked
 
-				{	// don't operate if resource is locked
+				{
 					if (GetResourceFlags (pumpRes.resourceName, 2) == 2) {
 						double resAmt = 0f;
 						double resMax = 0f;
