@@ -236,7 +236,7 @@ namespace GPOSpeedPump
 				PartResource pumpRes = part.Resources[i];
 
 				if (!this.isFlowableResource(pumpRes)) continue;
-				if (pumpRes.flowState) continue;  // don't operate if resource is locked
+				if (!pumpRes.flowState) continue;  // don't operate if resource is locked
 
 				{
 					if (GetResourceFlags (pumpRes.resourceName, 1) == 1) for (int s = vessel.Parts.Count - 1; s >= 0; --s)
@@ -277,7 +277,7 @@ namespace GPOSpeedPump
 				PartResource pumpRes = part.Resources[i];
 
 				if (!this.isFlowableResource(pumpRes)) continue;
-				if (pumpRes.flowState) continue;  // don't operate if resource is locked
+				if (!pumpRes.flowState) continue;  // don't operate if resource is locked
 
 				{
 					if (GetResourceFlags (pumpRes.resourceName, 2) == 2) {
