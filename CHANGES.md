@@ -1,11 +1,14 @@
 # Goo Pumps & Oils' Speed Pump :: Change Log
 
-* 2022-0916: 1.9.0.7 (LisiasT) for KSP >= 1.3.1
+* 2022-0916: 1.9.0.8 (LisiasT) for KSP >= 1.3.1
 	+ Adds `pt-br` Localization
 	+ Prevents pumping resources not meant to be transferrable
 	+ Closes issues:
-		+ [#28](https://github.com/net-lisias-ksp/GPOSpeedPump/issues/28) GPOSP is trying to pump non pumpeable resources!
-		+ [#25](https://github.com/net-lisias-ksp/GPOSpeedPump/issues/25)
+		- [#28](https://github.com/net-lisias-ksp/GPOSpeedPump/issues/28) GPOSP is trying to pump non pumpeable resources!
+		- [#25](https://github.com/net-lisias-ksp/GPOSpeedPump/issues/25) Brazilian Portuguese (Português Brasil) \<pt-br.cfg\>
+* 2022-0916: 1.9.0.7 (LisiasT) for KSP >= 1.3.1
+	+ ***DITCHED*** due major U.I. flaw due some still unknown idiossyncrasy on KSP.
+		- See [Issue #29](https://github.com/net-lisias-ksp/GPOSpeedPump/issues/29) for details.
 * 2022-0915: 1.9.0.6 (LisiasT) for KSP >= 1.3.1
 	+ Fix a lame mistake on the dependency checking
 	+ Implements Localization for the EN-US language
