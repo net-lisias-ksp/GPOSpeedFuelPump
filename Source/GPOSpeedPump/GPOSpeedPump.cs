@@ -22,8 +22,10 @@ using System.Linq;
 using UnityEngine;
 using KSP.Localization;
 
-//using GUI = KSPe.UI.GUI;
-//using GUILayout = KSPe.UI.GUILayout;
+#if KSPE
+using GUI = KSPe.UI.GUI;
+using GUILayout = KSPe.UI.GUILayout;
+#endif
 
 namespace GPOSpeedPump
 {
