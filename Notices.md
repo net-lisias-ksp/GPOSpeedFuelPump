@@ -2,23 +2,25 @@
 permalink: /Notices.html
 title: Legal Notices
 description: when the revolution comes, .... Legal Mumbo Jumbo (Douglas Adams)
-# layout: bare
 tags: notice,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
 
 <!--
-Notices.md v1.0.0.0
-Goo Pumps & Oils' Speed Pump (GPO)
+Notices.md v1.0.1.0
+Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 13 Apr 2022
 updated: 
 
 based upon work by LisiasT -->
 
-# Goo Pumps & Oils' Speed Pump (GPO)
+<script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
+<i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
+
+# Goo Pumps & Oils' Speed Pump (GPOSP)
 
 [Home](./index.md)
 
-## Trademarks
+## Trademarks <i class="fa-solid fa-trademark fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: black" ></i>
 
 * "Goodspeed Automatic Fuel Pump" is trademark of Gaius Goodspeed
 * "GPO Speed Pump " is trademark of Geordiepigeonowner
@@ -42,4 +44,3 @@ Other trademarks and registered trademarks are the property of the respective tr
 * © 2016-2019 hab136
 * © 2015 Geordiepigeonowner
 * © 2014 Gaius Goodspeed
-
