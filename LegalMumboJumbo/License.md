@@ -1,30 +1,27 @@
 ---
 permalink: /License.html
-title: License - GPLv3
+title: License - GPL-3.0
 ---
 
 <!--
-GPLv3.md v1.0.1.0
-On Demand Fuel Cells (ODFC)
+GPL-3.0.md v1.0.2.0
+Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 20 Feb 2022
-updated: 
+updated: 04 Aug 2022
 -->
-
-<!-- this file used with express permission from zer0Kerbal -->
-
-<img src="https://www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] " style="zoom:100%;" />
+<img src="https://www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPL-3.0 Logo] " style="zoom:75%;" />
 
 # GNU General Public License version 3
 
-<img src="https://opensource.org/files/OSIApproved_1.png" alt="OSI Approved License Logo" style="zoom:15%;" />License Copyright: Copyright © 2007 Free Software Foundation, Inc.
+<img src="https://opensource.org/files/OSIApproved_1.png" alt="OSI Approved License Logo" align="left" style="zoom:10%;" />
+
+License Copyright: Copyright © 2007 Free Software Foundation, Inc.
 License License: "Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed." ([www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)).
 License Contact: Free Software Foundation ([fsf.org](https://fsf.org/)).
 
 SPDX short identifier: GPL-3.0-only
 
 Further resources...
-
- 
 
 ------
 
