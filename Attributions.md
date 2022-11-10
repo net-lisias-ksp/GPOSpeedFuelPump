@@ -48,6 +48,15 @@ updated: 27 Mar 2022
   <li>Everyone else who made modding tutorials.</li>
 </ul>
 
+### Translations
+
+<ul>
+  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png " alt="English" style="zoom:100%;" /> English</li>
+  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/BR.png " alt="Português Brasil" style="zoom:100%;" /> Brazilian Portugues</li>
+  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/FR.png " alt="Français" style="zoom:100%;" /> French</li>
+  <li><small>Additions and corrections welcome!</small></li>
+</ul>
+
 ### Testing and Support
 
 * your name here
