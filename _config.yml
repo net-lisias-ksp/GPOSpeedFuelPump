@@ -1,6 +1,11 @@
+# config v1.0.3.0
+# Jekyll configuration
+name: GPO Speed Pump
 logo: /assets/img/logo.gif
 description: An Add'On for <a href="https://www.kerbalspaceprogram.com" target="_blank">Kerbal Space Program</a>.
 theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
