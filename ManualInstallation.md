@@ -26,7 +26,7 @@ You should be all good! (check for latest version on CurseForge)
 
 ### If Downloaded from CurseForge/OverWolf manual download
 
-To install, place the GPO Speed Pump  folder inside your Kerbal Space Program's GameData folder:
+To install, place the `GPOSpeedPump` folder inside your Kerbal Space Program's GameData folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
   * Delete `<KSP_ROOT>/GameData/GPOSpeedPump`
@@ -37,7 +37,7 @@ To install, place the GPO Speed Pump  folder inside your Kerbal Space Program's 
 
 ### If Downloaded from SpaceDock / GitHub / other
 
-To install, place the GameData folder inside your Kerbal Space Program folder:
+To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
   * Delete `<KSP_ROOT>/GameData/GPOSpeedPump`
@@ -51,14 +51,14 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 ```markdown
 <KSP_ROOT>
   + [GameData]
-    + GPOSpeedPump]
+    + [GPOSpeedPump]
       + [Localization]
         ...
       + [Patches]
         ...
       * [GPOSpeedPump.dll]
       ...
-      * License.txt
+      * GPL-3.0.txt
       * readme.htm
       * GPOSpeedPump.version
     ...
@@ -71,8 +71,8 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 
 * [KSP (API) Extensions][kspe]
 * *either*
-  * [Module Manager][mm]
   * [Module Manager /L][mml]
+  * [Module Manager][mm]
 
 [kspe]: http://ksp.lisias.net/add-ons/KSPAPIExtensions "KSPAPIExtensions"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
