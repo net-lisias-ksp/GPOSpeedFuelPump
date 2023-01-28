@@ -10,7 +10,9 @@ Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 01 Feb 2022
 updated: 03 Jun 2022 -->
 
-<!-- this file used with express permission from zer0Kerbal -->
+<!-- this file:
+      CC BY-ND 4.0 by zer0Kerbal
+      and used with express permission from zer0Kerbal -->
 
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <div class="fa-3x">
@@ -24,14 +26,14 @@ updated: 03 Jun 2022 -->
 has been translated into the following languages:
 
 * ![English][EN] English <us-en.cfg>
+* ![Español][ES] Spanish (Español) <es-es.cfg>  
+* ![Italiano][IT] Italian (Italiano) <it-it.cfg>  
 * ![Português Brasil][BR] Brazilian Portuguese (Português Brasil) <pt-br.cfg>  
-* ![Français][FR] French (Français) <fr-fr.cfg>  
 
 __These localizations for KSP and its DLC's are available through Steam:__
 
 * ![Deutsch][DE] German (Deutsch) <de.cfg>  
-* ![Español][ES] Spanish (Español) <es-es.cfg>  
-* ![Italiano][IT] Italian (Italiano) <it-it.cfg>  
+* ![Français][FR] French (Français) <fr-fr.cfg>  
 * ![日本語][JA] Japanese(日本語) <ja.cfg>  
 * ![Русский][RU] Russian (Русский) <ru.cfg>  
 * ![简体中文][CN] Simplified Chinese (简体中文) <zh-cn.cfg>  
@@ -67,5 +69,3 @@ __These localizations for KSP and its DLC's are available through Steam:__
 [RU]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/RU.png "Русский"  
 [SW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/SW.png "Svenska"  
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/TW.png "国语"
-
-<!-- this file CC BY-ND 4.0 by zer0Kerbal -->
