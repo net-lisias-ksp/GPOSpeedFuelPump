@@ -9,9 +9,12 @@ tags: notice,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 Notices.md v1.0.1.0
 Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 13 Apr 2022
-updated: 
+updated:  15 May 2022 -->
 
-based upon work by LisiasT -->
+<!-- this file:
+    CC BY-ND 4.0 by zer0Kerbal
+    based upon work by LisiasT
+    and used with express permission from zer0Kerbal and LisiasT-->
 
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
@@ -23,9 +26,9 @@ based upon work by LisiasT -->
 ## Trademarks <i class="fa-solid fa-trademark fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: black" ></i>
 
 * "Goodspeed Automatic Fuel Pump" is trademark of Gaius Goodspeed
-* "GPO Speed Pump " is trademark of Geordiepigeonowner
-* "GPO Speed Pump  continued" is treademark of hab136
-* "Goo Pumps & Oils", "Goo Pumps & Oils' Speed Fuel Pump", "Goo Pumps & Oils' Speed Pump" are trademarks of LisiasT & zer0Kerbal
+* "GPOSpeedFuelPump" is trademark of Geordiepigeonowner
+* "GPOSpeedFuelPump continued" is treademark of hab136
+* "Goo Pumps & Oils'", "Goo Pumps & Oils' Speed Fuel Pump", "Goo Pumps & Oils' Speed Pump" are trademarks of LisiasT & zer0Kerbal
 * zer0Kerbal is trademark of zer0kerbal
 
 ## Goo Pumps & Oils
