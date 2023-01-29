@@ -4,7 +4,6 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
-
 <!-- ManualInstallation.md v1.1.8.1
 Goo Pumps & Oils' Speed Pump (GPOSP)
 created: 01 Oct 2019
@@ -26,7 +25,7 @@ You should be all good! (check for latest version on CurseForge)
 
 ### If Downloaded from CurseForge/OverWolf manual download
 
-To install, place the `GPOSpeedPump` folder inside your Kerbal Space Program's GameData folder:
+To install, place the GPO Speed Pump  folder inside your Kerbal Space Program's GameData folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
   * Delete `<KSP_ROOT>/GameData/GPOSpeedPump`
@@ -37,7 +36,7 @@ To install, place the `GPOSpeedPump` folder inside your Kerbal Space Program's G
 
 ### If Downloaded from SpaceDock / GitHub / other
 
-To install, place the `GameData` folder inside your Kerbal Space Program folder:
+To install, place the GameData folder inside your Kerbal Space Program folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
   * Delete `<KSP_ROOT>/GameData/GPOSpeedPump`
@@ -51,18 +50,19 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 ```markdown
 <KSP_ROOT>
   + [GameData]
-    + [GPOSpeedPump]
+    + GPOSpeedPump]
       + [Localization]
         ...
       + [Patches]
         ...
       * [GPOSpeedPump.dll]
       ...
-      * GPL-3.0.txt
+      * License.txt
       * readme.htm
       * GPOSpeedPump.version
     ...
-    * [Module Manager][mm] or [Module Manager /L][mml]
+    * [Module Manager /L][mml] or [Module Manager][mm]
+    * ModuleManager.ConfigCache
   * KSP.log
   ...
 ```
@@ -75,5 +75,5 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
   * [Module Manager][mm]
 
 [kspe]: http://ksp.lisias.net/add-ons/KSPAPIExtensions "KSPAPIExtensions"
-[mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
+[mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
