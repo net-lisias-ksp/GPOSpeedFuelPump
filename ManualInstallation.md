@@ -4,18 +4,26 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
-<!-- ManualInstallation.md v1.1.8.1
-Goo Pumps & Oils' Speed Pump (GPOSP)
-created: 01 Oct 2019
-updated: 11 Apr 2022 -->
+<!-- ManualInstallation.md v1.7.1.0
+GPO Speed Pump (GPOSP)
+created: 18 Sep 2022
+updated: 26 Mar 2023
 
-<!-- based upon work by Lisias -->
+TEMPLATE: Marketing.md v1.0.2.0
+created: 13 Apr 2022
+updated: 27 Mar 2023
+
+based upon work by Lisias
+
+this file:
+    CC BY-ND 4.0 by zer0Kerbal
+    and used with express permission from zer0Kerbal -->
 
 # Goo Pumps & Oils' Speed Pump (GPOSP)
 
 [Home](./index.md)
 
-Allows you to automatically transfer or balance fuel.
+Allows you to automatically transfer or balance fuel and requires using either [ModularManagement][MM] or [Module Manager][m-m].
 
 ## Installation Instructions
 
@@ -50,7 +58,7 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 ```markdown
 <KSP_ROOT>
   + [GameData]
-    + GPOSpeedPump]
+    + [GPOSpeedPump]
       + [Localization]
         ...
       + [Patches]
@@ -61,7 +69,7 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
       * readme.htm
       * GPOSpeedPump.version
     ...
-    * [Module Manager /L][mml] or [Module Manager][mm]
+    * [ModularManagement (MM)][MM] or [Module Manager][m-m]
     * ModuleManager.ConfigCache
   * KSP.log
   ...
@@ -71,9 +79,9 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 
 * [KSP (API) Extensions][kspe]
 * *either*
-  * [Module Manager /L][mml]
-  * [Module Manager][mm]
+  * [ModularManagement][MM]
+  * [Module Manager][m-m]
 
 [kspe]: http://ksp.lisias.net/add-ons/KSPAPIExtensions "KSPAPIExtensions"
-[mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
-[mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
+[MM]: https://github.com/net-lisias-ksp/ModularManagement "ModularManagement (MM)"
+[m-m]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"

@@ -19,16 +19,19 @@ updated: 20 Oct 2022 -->
 
 # Goo Pumps & Oils' Speed Pump (GPOSP)
 
-## Marketing Images
-
-* [Tanks](#1)
-* [Pump Options](#2)
-* [In-flight Balancing](#3)
-* [The Forge](#4)
-
 [Home](./index.md)
 
-## 1
+## Marketing Images
+
+<!-- no toc -->
+* [Goo Pumps & Oils' Speed Pump (GPOSP)](#goo-pumps--oils-speed-pump-gposp)
+  * [Marketing Images](#marketing-images)
+  * [Tanks](#tanks)
+  * [Pump Options](#pump-options)
+  * [In-Flight Balancing](#in-flight-balancing)
+  * [The Forge](#the-forge)
+
+## Tanks
 
 Tanks at higher levels empty first, tanks with the same level maintain left/right balance
 
@@ -36,7 +39,7 @@ Tanks at higher levels empty first, tanks with the same level maintain left/righ
 
 [top](#marketing-images)
 
-## 2
+## Pump Options
 
 This is just demonstrating that the pump options can be set in the VAB or SPH and saved with the craft.
 
@@ -44,7 +47,7 @@ This is just demonstrating that the pump options can be set in the VAB or SPH an
 
 [top](#marketing-images)
 
-## 3
+## In-Flight Balancing
 
 Just showing tanks maintaining balance in-flight.
 
@@ -52,7 +55,7 @@ Just showing tanks maintaining balance in-flight.
 
 [top](#marketing-images)
 
-## 4
+## The Forge
 
 The Forge orbital construction space station, here demoing the Pump Options window on one of its tanks
 
