@@ -38,5 +38,5 @@ The following file layout must be present after installation:
 
 ### Dependencies
 
-* [Module Manager](https://github.com/sarnet-lisias-kspu/ModuleManager)
+* [Module Manager](https://github.com/net-lisias-ksp/ModuleManager)
 	+ Not Included
