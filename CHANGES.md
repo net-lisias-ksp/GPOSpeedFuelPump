@@ -1,5 +1,7 @@
 # Goo Pumps & Oils' Speed Pump :: Changes
 
+* 2023-0610: 1.9.1.0 (LisiasT) for KSP >= 1.3.1
+	+ Adds `ja` Localization
 * 2023-0129: 1.9.0.11 (LisiasT) for KSP >= 1.3.1
 	+ Adds `it-it` Localization
 	+ Updates `KSPe.Light` to latest version
